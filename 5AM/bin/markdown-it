@@ -1,6 +1,6 @@
-#!/Users/sb/Documents/PyCharm-Work/Trainings/EITA/5AM-AWS-AI/Pandas/pandas/bin/python3.11
+#!/Users/sb/Documents/PyCharm-Work/Trainings/EITA/5AM-AWS-AI/5AM/bin/python3.11
 import sys
-from pip._internal.cli.main import main
+from markdown_it.cli.parse import main
 if __name__ == '__main__':
     if sys.argv[0].endswith('.exe'):
         sys.argv[0] = sys.argv[0][:-4]
