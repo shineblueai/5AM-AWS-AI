@@ -1,0 +1,155 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "xhyMUl5Q-pBZQWEySBnhq",
+      "type": "freedraw",
+      "x": 341.0599365234375,
+      "y": 101.67552947998047,
+      "width": 2.21307373046875,
+      "height": 18.448440551757812,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1134159339,
+      "version": 18,
+      "versionNonce": 1103787403,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1766360030953,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.1175537109375,
+          0.11302947998046875
+        ],
+        [
+          0.284820556640625,
+          0.8816146850585938
+        ],
+        [
+          0.519927978515625,
+          2.7624053955078125
+        ],
+        [
+          0.519927978515625,
+          5.0794830322265625
+        ],
+        [
+          1.028564453125,
+          7.396553039550781
+        ],
+        [
+          1.53717041015625,
+          9.713630676269531
+        ],
+        [
+          2.045806884765625,
+          12.971099853515625
+        ],
+        [
+          2.045806884765625,
+          14.851882934570312
+        ],
+        [
+          2.045806884765625,
+          15.860099792480469
+        ],
+        [
+          2.21307373046875,
+          16.628684997558594
+        ],
+        [
+          2.21307373046875,
+          17.52838897705078
+        ],
+        [
+          2.21307373046875,
+          17.923988342285156
+        ],
+        [
+          2.21307373046875,
+          18.055099487304688
+        ],
+        [
+          2.21307373046875,
+          18.31732940673828
+        ],
+        [
+          2.21307373046875,
+          18.448440551757812
+        ],
+        [
+          2.21307373046875,
+          18.448440551757812
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        2.21307373046875,
+        18.448440551757812
+      ]
+    },
+    {
+      "id": "yn_L0Q5Mkz5S0fVV5APRJ",
+      "type": "text",
+      "x": 318.1604309082031,
+      "y": 137.58680725097656,
+      "width": 756.539306640625,
+      "height": 925,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1974788101,
+      "version": 1068,
+      "versionNonce": 428078053,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1766361215655,
+      "link": null,
+      "locked": false,
+      "text": "ml\nsupervised = > CR [ Label Data]\nC -Classification - Logistic Regression = Yes, No->\nR = Regression - Linear - variable which has a continuos value \nshapre price = tomoorw? gas =? 10.30 , 11.1111\nyes / no - predict [ True / False - Binary Class]\nMulti-Class- Classification \n\ndog  ?\n\n\n\n\n\nCode for creating model steps : ILC MST CPP E\nI-Import Libraries [PNM SS - \nP-pandas, N-Numpy, M -MatplotLib, S-Seaborn, S-scikit-learn\nL = Loading Dataset =pd.read_csv(\"fn\")\nC = Checking datatype = df.dtypes / df.info()\n\nM= Missing data handling (df.isnull().sum(), df.duplicated().sum(), df.describe()\ndo -plot \ns = X,y split, X =df[\nT = Train_test_split[ x_test,y_test_]\n\nC = Create call, fit = lr_model=LinearRegression()\nlr_model.fit_transform(x\n\nP = Predict model .predict\nP =Plot with model , scatter, actual, plt.plot(X_test, \nE = Evalaute the model performance [ MSE, MAE]\n\n\n\n   unsupervised => CA [ Unlabel Data]\nC-Clustering \nA -Associsation ",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "ml\nsupervised = > CR [ Label Data]\nC -Classification - Logistic Regression = Yes, No->\nR = Regression - Linear - variable which has a continuos value \nshapre price = tomoorw? gas =? 10.30 , 11.1111\nyes / no - predict [ True / False - Binary Class]\nMulti-Class- Classification \n\ndog  ?\n\n\n\n\n\nCode for creating model steps : ILC MST CPP E\nI-Import Libraries [PNM SS - \nP-pandas, N-Numpy, M -MatplotLib, S-Seaborn, S-scikit-learn\nL = Loading Dataset =pd.read_csv(\"fn\")\nC = Checking datatype = df.dtypes / df.info()\n\nM= Missing data handling (df.isnull().sum(), df.duplicated().sum(), df.describe()\ndo -plot \ns = X,y split, X =df[\nT = Train_test_split[ x_test,y_test_]\n\nC = Create call, fit = lr_model=LinearRegression()\nlr_model.fit_transform(x\n\nP = Predict model .predict\nP =Plot with model , scatter, actual, plt.plot(X_test, \nE = Evalaute the model performance [ MSE, MAE]\n\n\n\n   unsupervised => CA [ Unlabel Data]\nC-Clustering \nA -Associsation ",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

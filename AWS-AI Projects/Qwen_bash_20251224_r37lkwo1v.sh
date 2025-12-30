@@ -1,0 +1,1 @@
+pip install pandas numpy matplotlib seaborn scikit-learn tensorflow keras xgboost langchain faiss-cpu
