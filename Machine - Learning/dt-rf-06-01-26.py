@@ -2,6 +2,8 @@
 # Its like a tree structure where each node represents a feature (or attribute),
 # each branch represents a decision rule, and each leaf node represents an outcome (or class label
 
+# ILC MST CPP E ?
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,4 +72,5 @@ with mlflow.start_run(run_name="Decision_Tree_Model"):
     mlflow.log_metric('accuracy', dt_accuracy)
     mlflow.sklearn.log_model(dt, "decision_tree_model")
 
-   
+   #configuring autolog
+    mlflow.sklearn.autolog()
